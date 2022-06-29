@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "dev:home" : "cd packages && cd home && yarn dev"
+  },
+  "devDependencies": {
+    "lerna": "^5.1.6"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
